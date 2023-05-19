@@ -2,6 +2,10 @@
     font-family: Poppins;
 }
 
+body {
+    width: 420px;
+}
+
 header {
     background-color: #ce0505;
     height: 80px;
@@ -13,8 +17,8 @@ header {
     border-radius: 50%;
     padding: 5px 15px;
     position: absolute;
-    left: 80px;
-    top: 13px;
+    left: 20px;
+    top: 10px;
 }
 
 .logo {
@@ -26,8 +30,8 @@ header {
 
 .login-signup {
     position: absolute;
-    right: 80px;
-    top: 25px;
+    right: 20px;
+    top: 28px;
     word-spacing: 10px;
 }
 
@@ -47,14 +51,15 @@ header {
 
 section {
     position: relative;
-    padding: 20px 50px;
+    padding: 20px 0px;
 }
 
 .title-text {
     color: #192f60;
     font-weight: 600;
-    font-size: 36px;
-    margin-bottom: 20px;    
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;    
 }
 
 .filters-article {
@@ -66,29 +71,37 @@ section {
 }
 
 .result1-article {
-    width: 794px;
+    width: 420px;
     height: 291px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     background-color: #ffffff;
     position: absolute;
     top: 100px;
-    left: 350px;
 }
 
 .result2-article {
-    width: 794px;
+    width: 420px;
     height: 291px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     background-color: #ffffff;
     position: absolute;
     top: 430px;
-    left: 350px;
+}
+
+.result3-article {
+    width: 420px;
+    height: 291px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    position: absolute;
+    top: 760px;
 }
 
 .pagination {
     position: absolute;
-    bottom: 20px;
-    left: 40%;
+    top: 1060px;
+    left: 55px;
+    padding: 20px;
 }
 
 .page-button {
