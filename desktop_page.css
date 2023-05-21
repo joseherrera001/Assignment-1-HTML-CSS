@@ -199,3 +199,39 @@ section {
     right: 25px;
 }
 
+.select-location {
+    width: 208px;
+    height: 35px;
+    border: 1px solid #8C96AB;
+    border-radius: 3px;
+    opacity: 1;
+    color: #8C96AB;
+    margin-bottom: 10px;    
+}
+
+.select-cuisine {
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+    margin-bottom: 15px;    
+}
+
+.select-cost {
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+    margin-bottom: 15px;    
+}
+
+.select-sort {
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+    margin-bottom: 15px;    
+}
